@@ -1,0 +1,259 @@
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+
+
+.wrap, .wrap-1 {
+  text-align: center;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header  {
+  margin-top: -5em;
+}
+
+#sizing {
+    width: 70%;
+    width: 320px;
+  }
+
+ .heading {
+   text-align: center;
+}
+
+.fitting {
+  width: 90%;
+  margin: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+ .name, h3, p {
+  font-family: 'Slabo 27px', serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #D3CB9E
+}
+
+ .main-header .main-nav li  {
+  display: block;
+  padding: 10px 15px 10px 15px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-color: #b8c4c1;
+}
+
+
+ .main-nav a {
+  padding: 10px 15px;
+  font-weight: 100;
+  color: black;
+  font-weight: 700;
+  font-family: 'Slabo 27px', serif;
+}
+
+
+.name2 {
+  display: inline-block;
+  float: left;
+  font-weight: 600;
+  }
+
+ .name3 {
+    display: inline-block;
+    float: right;
+    font-weight: 600;
+  }
+
+   li, .name4, .name5, .name6 {
+    display: none;
+  }
+
+  .main-nav, ul {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .fitting-1, .student {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #7D7B6D;
+    font-family: 'Slabo 27px', serif;
+  }
+
+
+/* ---- Layout Containers ---- */
+
+
+.container {
+  width: 90%;
+  text-align: center;
+  background: #c2d1ce;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
+  margin-top: 3em;
+  overflow: hidden;
+}
+
+
+.first {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+  .second,
+  .third,
+  .fourth,
+  .fith,
+  .sixth {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+/*----------Main Styles-----------*/
+
+p {
+  text-align: center;
+}
+
+.name, h3, p {
+ font-family: 'Slabo 27px', serif;
+}
+
+.name {
+  text-align: center;
+  padding-top: 1em;
+}
+
+
+  .main-footer {
+    border-top: 4px dashed #c8c8c8;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+
+
+
+
+/*----------Media Queries----------*/
+
+@media (min-width: 768px) {
+
+  .wrap-1, .container, .main-footer {
+      width: 100%;
+}
+
+.cont {
+  float: left;
+}
+
+#fitting {
+  width: 20em;
+}
+
+
+  .heading {
+    text-align: center;
+  }
+
+
+  #sizing {
+      width: 40%;
+      float: right;
+      margin-right: 20px;
+      margin-left: 3em;
+    }
+
+
+
+.main-header .main-nav li {
+    display: inline-block;
+    background: #c2d1ce;
+  }
+
+
+.name4, .name5, .name6 {
+  margin-left: 1em;
+  display: inline-block;
+  float: right;
+  font-weight: 600;
+}
+
+.name3 {
+  display: none;
+}
+
+.first.cont, .second.cont {
+  width: 50%
+}
+
+.third.cont, .fourth.cont {
+  width: 50%
+}
+
+.fith.cont, .sixth.cont {
+  width: 50%
+  }
+}
+
+
+@media (min-width: 1024px) {
+
+  .student {
+    float: left;
+    margin-left: 1em;
+    margin-top: .1em;
+  }
+.main-nav, ul {
+  display: block;
+  text-align: right;
+}
+
+
+.wrap-1 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.wrap-1, .container, .main-footer {
+    width: 100%
+  }
+
+  .first.cont, .second.cont, .third.cont {
+    display: inline-block;
+    width: 30%
+  }
+
+  .fourth.cont, .fith.cont, .sixth.cont {
+    display: inline-block;
+    width: 30%
+  }
+
+  .cont {
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+  .heading {
+    text-align: center;
+ }
+}
