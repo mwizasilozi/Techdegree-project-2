@@ -6,9 +6,8 @@
 
 
 
-.wrap, .wrap-1 {
-  text-align: center;
-  width: 100%;
+.wrap {
+  font-family: 'Slabo 27px', serif;
 }
 
 .clearfix::after {
@@ -61,10 +60,8 @@ a:hover {
 
  .main-nav a {
   padding: 10px 15px;
-  font-weight: 100;
   color: black;
   font-weight: 700;
-  font-family: 'Slabo 27px', serif;
 }
 
 
@@ -93,7 +90,6 @@ a:hover {
     margin-left: 1em;
     margin-right: 1em;
     color: #7D7B6D;
-    font-family: 'Slabo 27px', serif;
   }
 
 
@@ -133,9 +129,6 @@ p {
   text-align: center;
 }
 
-.name, h3, p {
- font-family: 'Slabo 27px', serif;
-}
 
 .name {
   text-align: center;
